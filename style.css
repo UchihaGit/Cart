@@ -1,0 +1,153 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  background-color: #eee;
+}
+
+header{
+  min-height: 80px;
+  cursor: pointer;
+  color: #444;
+}
+
+h2{
+  font-size: 2em;
+  font-weight: 900;
+  line-height: 80px;
+  float: left;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+ul{
+  float: right;
+}
+
+ul li{
+
+  display: inline-block;
+  xmargin-left: 30px;
+  list-style: none;
+  font-size: 1.5em;
+  padding: 0 20px;
+  line-height: 80px;
+}
+
+ul li:hover, .active{
+  background-color: chocolate;
+}
+
+section{
+  width: 100%;
+  padding: 10px;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.thumb{
+  width: 32%;
+  min-width: 300px;
+  height: 400px;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.thumb img{
+  width: 100%;
+  height: 300px;
+  xdisplay: block;
+  object-position: top;
+  object-fit: cover;;
+
+}
+
+.thumb:hover{
+  background: #ccc;
+}
+
+h1{
+  text-transform: capitalize;
+}
+
+.btnLeft,.btnRight,.close{
+  xdisplay: none;
+}
+
+.img_container{
+  display: none;
+}
+
+.img-item{
+  background: url("madara2.jpg");
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 150px;;
+}
+
+.show{
+  display:block !important;
+}
+
+.cartImg img{
+border-radius: 100%;
+}
+
+.cartImg{
+
+  width: 15%;
+  float: left;
+}
+
+.cart{
+  width: 30%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.cart p{
+  width: 85%;
+
+  float: right;
+}
+
+.div1{
+  background-color: red;
+}
+
+.div2{
+  background-color: green;
+  margin-top: 25px;
+}
+
+.total{
+  margin-top: 25px;
+
+}
+
+.total h5{
+  width: 40%;
+  float: left;
+  background-color: pink;
+  margin-left: 10px;
+}
+
+.singleItem{
+  width: 30%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.singleItem p{
+  border: 1px solid black;
+  font-style: italic;
+  background-color: #1df2ec;
+}
